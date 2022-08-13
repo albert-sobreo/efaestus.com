@@ -5,7 +5,7 @@
 
         <div class="flex flex-col items-center justify-center gap-8 h-[40rem]">
 
-            <span><i class="fa-solid fa-person-digging text-6xl"></i></span>
+            <span><i class="fa-solid fa-person-digging text-6xl text-yellow-400"></i></span>
             <span class="font-bold text-2xl">Page under development</span>
 
         </div>
