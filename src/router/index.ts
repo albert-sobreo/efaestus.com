@@ -19,11 +19,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'yapos',
     component: YaPOSView
   },
-  // {
-  //   path: '/about',
-  //   name: 'about',
-  //   component: AboutView
-  // }
+  {
+    path: '/about',
+    name: 'about',
+    component: AboutView
+  }
 ]
 
 const router = createRouter({
