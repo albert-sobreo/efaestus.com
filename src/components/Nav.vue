@@ -15,7 +15,8 @@
 }
 
 .nav{
-    backdrop-filter: blur(20px)
+    backdrop-filter: blur(40px);
+    background-color: #1d2125b4;
 }
 
 .nav-link{

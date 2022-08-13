@@ -1,13 +1,14 @@
 <template>
     <div class="relative">
         <Nav/>
+        <NavBurger/>
 
         <div class="w-full xs:px-4 xl:px-16">
             <div class="flex justify-between">
                 <div class="flex flex-col xs:mt-8 xl:mt-48 xl:text-3xl">
                     <div class="flex flex-col">
                         <span class="font-semibold tracking-tighter xl:text-2xl 2xl:text-3xl">First Ever Product of <span class="text-white">Efaestus Software</span></span>
-                        <span class="font-black xs:text-4xl xl:text-5xl 2xl:text-8xl text-sky-400 tracking-tighter">Yet another POS</span>
+                        <span class="-ml-2 font-black xs:text-4xl xl:text-5xl 2xl:text-8xl text-sky-400 tracking-tighter">Yet another POS</span>
                     </div>
 
                     <div class="flex justify-center w-full xs:block xl:hidden">
@@ -139,10 +140,12 @@
 import { defineComponent } from 'vue';
 import Nav from '@/components/Nav.vue';
 import Footer from '@/components/Footer.vue';
+import NavBurger from '@/components/NavBurger.vue';
 
 export default defineComponent({
     components: {
         Nav,
+        NavBurger,
         Footer
     },
 

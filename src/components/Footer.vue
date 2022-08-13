@@ -6,7 +6,7 @@
 
 
     <div class="flex xs:flex-col xl:flex-row font-bold xs:gap-12 xl:gap-40">
-        <div id="our-contacts" class="flex flex-col gap-2">
+        <div id="our-contacts" class="flex flex-col gap-2 xs:items-center xl:items-start">
             <div>
                 <span class="text-slate-400">Our Contacts</span>
             </div>
@@ -17,7 +17,7 @@
         </div>
 
         
-        <div id="socials" class="flex flex-col gap-2">
+        <div id="socials" class="flex flex-col gap-2 xs:items-center xl:items-start">
             <div>
                 <span>Our Social Networks</span>
             </div>
@@ -30,8 +30,8 @@
     </div>
 
     <div id="rights" class="flex flex-col items-center tracking-wider text-[#9AA5AF] text-xs mt-8">
-        <span>All Rights Reserved | Efaestus Software and Tech Inc.</span>
-        <span>Olongapo City, Central Luzon, Philippines</span>
+        <span class="text-center">All Rights Reserved | Efaestus Software and Tech Inc. 2022</span>
+        <span class="text-center">Olongapo City, Central Luzon, Philippines</span>
     </div>
 </div>
 </template>
