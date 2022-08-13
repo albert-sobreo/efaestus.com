@@ -11,7 +11,7 @@
                 <span class="text-slate-400">Our Contacts</span>
             </div>
             <div class="flex flex-col font-semibold">
-                <span><i class="fa-solid fa-envelope mr-2 -ml-6"></i> efaestus.software.gmail.com</span>
+                <span><i class="fa-solid fa-envelope mr-2 -ml-6"></i> efaestus.software@gmail.com</span>
                 <span><i class="fa-solid fa-phone mr-2 -ml-6"></i>+63 976 059 2328</span>
             </div>
         </div>
