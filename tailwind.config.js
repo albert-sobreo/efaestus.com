@@ -1,8 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     screens: {
+      'xs': '320px',
+      
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 

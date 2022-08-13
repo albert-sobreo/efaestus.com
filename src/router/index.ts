@@ -2,8 +2,13 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import YaPOSView from '@/views/YaPOSView.vue'
 import AboutView from '@/views/AboutView.vue'
+import PageNotFound from '@/views/PageNotFound.vue'
 
 const routes: Array<RouteRecordRaw> = [
+  {
+    path: '/:pathMatch(.*)*',
+    component: PageNotFound
+  },
   {
     path: '/',
     name: 'home',
@@ -14,11 +19,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'yapos',
     component: YaPOSView
   },
-  {
-    path: '/about',
-    name: 'about',
-    component: AboutView
-  }
+  // {
+  //   path: '/about',
+  //   name: 'about',
+  //   component: AboutView
+  // }
 ]
 
 const router = createRouter({
