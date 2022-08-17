@@ -12,7 +12,7 @@
                     </div>
 
                     <div class="flex justify-center w-full xs:block xl:hidden">
-                        <img src="@/assets/cool.png" alt="" class="w-fit">
+                        <img src="@/assets/cool-min.png" alt="" class="w-fit">
                     </div>
 
                     <div class="flex flex-col xl:mt-20">
