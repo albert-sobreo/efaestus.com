@@ -12,7 +12,7 @@
             </div>
             <div class="flex flex-col font-semibold">
                 <span><i class="fa-solid fa-envelope mr-2 -ml-6"></i> efaestus.software@gmail.com</span>
-                <span><i class="fa-solid fa-phone mr-2 -ml-6"></i>+63 976 059 2328</span>
+                <span><i class="fa-solid fa-phone mr-2 -ml-6"></i>+63 919 384 6516</span>
             </div>
         </div>
 
